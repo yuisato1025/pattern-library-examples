@@ -1,0 +1,8 @@
+{
+    "name": "pattern-library-examples",
+    "private": true,
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ]
+}
