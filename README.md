@@ -5,11 +5,11 @@
 When it comes to create design system for a product, I learned that you need a library of user interface (UI) patterns that designers and design teams use to build, and developers refer to it, which is called pattern library.
 There are a few ways to create it, so I just want to make it clear that each approach"s pro and cons by comparing them.
 
-## Result
+## Screenshot
 
-### 1. [KSS](https://warpspire.com/kss/)
+### 1. [ASTRUM](https://astrum.nodividestudio.com/)
 
-TBD
+<img width="1468" alt="スクリーンショット 2022-07-31 21 59 18" src="https://user-images.githubusercontent.com/58369263/182028185-eb936253-8442-4725-b56e-abb6754ca3cb.png">
 
 ### 2. [PatternLab](https://patternlab.io/)
 
@@ -18,3 +18,29 @@ TBD
 ### 3. [Fractal](https://fractal.build/)
 
 <img width="1466" alt="image" src="https://user-images.githubusercontent.com/58369263/182020711-d6b037af-826d-418a-9ba2-e2e5f0ef965d.png">
+
+## Check local
+
+### Install Dependencies
+
+```bash
+$ yarn # in the root
+```
+
+### Start server
+
+For astrum
+
+```bash
+$ yarn w astrum start # port 3001
+```
+
+For fractal
+```bash
+$ yarn w fractal start # port 3002
+```
+
+For fractal
+```bash
+$ yarn w pattern-lab start # port 3003
+```
