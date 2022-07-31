@@ -1,11 +1,18 @@
 {
     "name": "fractal",
+    "version": "0.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yuisato-git/pattern-library-examples.git",
+      "directory": "packages/fractal"
+    },
     "dependencies": {
         "@frctl/fractal": "^1.5.13"
     },
     "scripts": {
-        "fr:init": "fractal new",
-        "fr:start":"fractal start --sync",
-        "fr:build":"fractal build"
+        "init": "fractal new",
+        "start":"fractal start --sync -p 3002",
+        "build":"fractal build"
     }
 }

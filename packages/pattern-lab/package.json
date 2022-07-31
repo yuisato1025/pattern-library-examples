@@ -1,5 +1,12 @@
 {
   "name": "pattern-lab",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuisato-git/pattern-library-examples.git",
+    "directory": "packages/pattern-lab"
+  },
   "dependencies": {
     "@pattern-lab/cli": "^5.16.2",
     "@pattern-lab/core": "^5.16.2",

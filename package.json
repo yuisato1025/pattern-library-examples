@@ -1,8 +1,18 @@
 {
     "name": "pattern-library-examples",
+    "version": "0.0.0",
+    "repository": "https://github.com/yuisato-git/pattern-library-examples.git",
     "private": true,
     "license": "MIT",
+    "engines": {
+        "node": ">= 16.15",
+        "npm": "please use yarn",
+        "yarn": ">= 1.22"
+    },
     "workspaces": [
         "packages/*"
-    ]
+    ],
+    "scripts": {
+        "w": "yarn workspace"
+    }
 }

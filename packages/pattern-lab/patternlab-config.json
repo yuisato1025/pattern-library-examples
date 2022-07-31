@@ -86,6 +86,7 @@
   "patternMergeVariantArrays": true,
   "renderFlatPatternsOnViewAllPages": false,
   "serverOptions": {
+    "port": 3003,
     "wait": 1000
   },
   "starterkitSubDir": "dist",
